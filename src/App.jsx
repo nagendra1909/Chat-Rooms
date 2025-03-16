@@ -4,7 +4,7 @@ import Auth from './components/Auth.jsx'
 import Cookies from 'universal-cookie';
 import Chat from './components/Chat.jsx'
 import { signOut} from "firebase/auth"
-import {auth} from './firebase-config.js'
+import {auth} from '../firebase-config.js'
 
 const cookies = new Cookies();
 

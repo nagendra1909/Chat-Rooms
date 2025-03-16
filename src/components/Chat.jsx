@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { addDoc, collection, serverTimestamp, onSnapshot, query, where, orderBy } from 'firebase/firestore';
-import { auth, db } from "../firebase-config";
+import { auth, db } from "../../firebase-config";
 
 const Chat = ({ room }) => {
     const [newMessage, setNewMessage] = useState("");
